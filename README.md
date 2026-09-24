@@ -7,6 +7,7 @@
 Conversational DNA connects an interactive conversation atlas to speaker strands, communicative moves, response targets, source transcripts, and structural alignment. Explore a collection, select a cohort, unfold an exchange, and inspect its evidence.
 
 Paper on arXiv: https://arxiv.org/abs/2508.07520
+
 Demo video: https://youtu.be/S4SMteXzJb0
 
 ![Research atlas](figures/atlas_overview_capture.png)
