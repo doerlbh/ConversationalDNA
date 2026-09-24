@@ -1,0 +1,201 @@
+[
+  {
+    "file": "literature/2024.emnlp-demo.50.bib",
+    "url": "https://aclanthology.org/2024.emnlp-demo.50.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "a57d6865b9b08733776e4c4a1bf946fec6400ef0150ddcb5a6a064f5d5bb7de0"
+  },
+  {
+    "file": "literature/prism.bib",
+    "method": "NeurIPS official BibTeX acquired earlier; metadata retained",
+    "sha256": "d30b632869873be75fd76ad0b690d856acd1aa1914ac0134f996c5e863789839"
+  },
+  {
+    "file": "literature/D19-1481.bib",
+    "url": "https://aclanthology.org/D19-1481.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "3b0720729e9770224d578ad10c64d24564283e9b118146f7838839a6bd714503"
+  },
+  {
+    "file": "literature/I17-1099.bib",
+    "url": "https://aclanthology.org/I17-1099.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "99f58a18e86736b5ffbf805e8d0adebb0a5b2f6e73f02f14c93bf33ad2e9ccee"
+  },
+  {
+    "file": "literature/2020.coling-main.238.bib",
+    "url": "https://aclanthology.org/2020.coling-main.238.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "d8527a518f69068dd149fa5cc01e2a38a1b5d6fd555dff5653a549f328b5ea33"
+  },
+  {
+    "file": "literature/2024.naacl-long.414.bib",
+    "url": "https://aclanthology.org/2024.naacl-long.414.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "9a53e8b0b04e531970faf60d45d610958eef38747651072a665065cbc5fc8ec1"
+  },
+  {
+    "file": "literature/2020.sigdial-1.8.bib",
+    "url": "https://aclanthology.org/2020.sigdial-1.8.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "8fbeb799e7025b5a8cddfd193ab6ee150cf0680ebd5e36b32596e1c90480eced"
+  },
+  {
+    "file": "literature/2025.findings-emnlp.1327.bib",
+    "url": "https://aclanthology.org/2025.findings-emnlp.1327.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "9febf292f0faac96c9f90fe26c030d2e89b54daf2d04ce134061e59692b2fed3"
+  },
+  {
+    "file": "literature/P18-2021.bib",
+    "url": "https://aclanthology.org/P18-2021.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "b422bece36ef31508395333ff3b0141d6c09f2924f81962960750a8bea39c9f9"
+  },
+  {
+    "file": "literature/D19-1410.bib",
+    "url": "https://aclanthology.org/D19-1410.bib",
+    "http": 200,
+    "exact_match": true,
+    "sha256": "87982968ae942aacbfea0637807abb8f8fbb4d534f9fd16447eb0b817774c44b"
+  },
+  {
+    "doi": "10.1016/0022-2836(81)90087-5",
+    "title": [
+      "Identification of common molecular subsequences"
+    ],
+    "authors": [
+      "T.F. Smith",
+      "M.S. Waterman"
+    ],
+    "container": [
+      "Journal of Molecular Biology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1981,
+          3
+        ]
+      ]
+    },
+    "page": "195-197",
+    "article_number": null
+  },
+  {
+    "doi": "10.1609/icwsm.v11i1.14886",
+    "title": [
+      "Characterizing Online Discussion Using Coarse Discourse Sequences"
+    ],
+    "authors": [
+      "Amy Zhang",
+      "Bryan Culbertson",
+      "Praveen Paritosh"
+    ],
+    "container": [
+      "Proceedings of the International AAAI Conference on Web and Social Media"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          3
+        ]
+      ]
+    },
+    "page": "357-366",
+    "article_number": null
+  },
+  {
+    "doi": "10.1145/3610056",
+    "title": [
+      "DeliData: A Dataset for Deliberation in Multi-party Problem Solving"
+    ],
+    "authors": [
+      "Georgi Karadzhov",
+      "Tom Stafford",
+      "Andreas Vlachos"
+    ],
+    "container": [
+      "Proceedings of the ACM on Human-Computer Interaction"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          28
+        ]
+      ]
+    },
+    "page": "1-25",
+    "article_number": null
+  },
+  {
+    "doi": "10.1145/3746059.3747746",
+    "title": [
+      "OnGoal: Tracking and Visualizing Conversational Goals in Multi-Turn Dialogue with Large Language Models"
+    ],
+    "authors": [
+      "Adam J Coscia",
+      "Shunan Guo",
+      "Eunyee Koh",
+      "Alex Endert"
+    ],
+    "container": [
+      "Proceedings of the 38th Annual ACM Symposium on User Interface Software and Technology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          27
+        ]
+      ]
+    },
+    "page": "1-18",
+    "article_number": null
+  },
+  {
+    "key": "sacks1974turntaking",
+    "doi": "10.2307/412243",
+    "primary_url": "https://www.cs.columbia.edu/~julia/cs4706/Sacks_et_al_1974.pdf",
+    "verified": "1974, Language 50(4), 696\u2013735; Sacks, Schegloff, Jefferson; original paper and publisher record",
+    "method": "Primary article/publisher/author-institution page inspection; final Crossref batch was rate-limited (HTTP 429)",
+    "checked_utc": "2026-09-24"
+  },
+  {
+    "key": "schegloff1977repair",
+    "doi": "10.2307/413107",
+    "primary_url": "https://www.conversationanalysis.org/wp-content/uploads/2019/06/11_Schegloff_et_al_The_Preference_For_Self-Correction_in_the_Organization_of_Repair_in_Conversation.pdf",
+    "verified": "1977, Language 53(2), 361\u2013382; Schegloff, Jefferson, Sacks; original paper, indexed full-text excerpt, and earlier metadata inspection. Final publisher service endpoint inaccessible.",
+    "method": "Primary article/publisher/author-institution page inspection; final Crossref batch was rate-limited (HTTP 429)",
+    "checked_utc": "2026-09-24"
+  },
+  {
+    "key": "engelhardt2020dna",
+    "doi": "10.1007/978-3-030-54249-8_51",
+    "primary_url": "https://link.springer.com/chapter/10.1007/978-3-030-54249-8_51",
+    "verified": "2020, Diagrammatic Representation and Inference, 534\u2013538; Engelhardt and Richards; publisher chapter",
+    "method": "Primary article/publisher/author-institution page inspection; final Crossref batch was rate-limited (HTTP 429)",
+    "checked_utc": "2026-09-24"
+  },
+  {
+    "key": "deitelhoff2019dna",
+    "doi": "10.1145/3314111.3318227",
+    "primary_url": "https://www2.fh-dortmund.de/publikationen/fis.import.pub.de.2874.php",
+    "verified": "2019, ETRA proceedings, 1\u20135; Deitelhoff, Harrer, Kienle; author institution and ACM conference program",
+    "method": "Primary article/publisher/author-institution page inspection; final Crossref batch was rate-limited (HTTP 429)",
+    "checked_utc": "2026-09-24"
+  }
+]

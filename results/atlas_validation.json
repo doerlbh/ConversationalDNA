@@ -1,0 +1,9 @@
+{
+  "indexed_points": 151489,
+  "unique_point_ids": true,
+  "coordinates_finite_and_bounded": true,
+  "features": 19,
+  "molweni_nonadjacent_episodes": 11533,
+  "molweni_clarify_answer_occurrences": 10862,
+  "synthetic_export_original_retained": true
+}

@@ -1,0 +1,89 @@
+{
+  "protocol": "Ten sequential full-map localhost requests, warm process, Accept-Encoding gzip. Transfer includes service compression; decode uses Python, not the browser. No browser paint or concurrent-user claim.",
+  "environment": "macOS-26.6.2-arm64-arm-64bit",
+  "episodes": 151489,
+  "rows": [
+    {
+      "transfer_ms": 1115.0655000237748,
+      "python_decode_ms": 162.4102499918081,
+      "total_ms": 1277.475750015583,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1104.2984999949113,
+      "python_decode_ms": 168.11112500727177,
+      "total_ms": 1272.409625002183,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1107.7994999941438,
+      "python_decode_ms": 184.16875001275912,
+      "total_ms": 1291.968250006903,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1118.1023339740932,
+      "python_decode_ms": 169.9234580155462,
+      "total_ms": 1288.0257919896394,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1122.178833000362,
+      "python_decode_ms": 183.2339169923216,
+      "total_ms": 1305.4127499926835,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1116.9800420175306,
+      "python_decode_ms": 190.07324997801334,
+      "total_ms": 1307.053291995544,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1110.8012500335462,
+      "python_decode_ms": 167.54075000062585,
+      "total_ms": 1278.342000034172,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1113.593707967084,
+      "python_decode_ms": 184.0500000398606,
+      "total_ms": 1297.6437080069445,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1112.2350409859791,
+      "python_decode_ms": 190.1847090339288,
+      "total_ms": 1302.419750019908,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    },
+    {
+      "transfer_ms": 1108.5411249659956,
+      "python_decode_ms": 168.13762503443286,
+      "total_ms": 1276.6787500004284,
+      "encoding": "gzip",
+      "wire_bytes": 1731514,
+      "json_bytes": 7935738
+    }
+  ],
+  "transfer_median_ms": 1112.9143744765315,
+  "transfer_p95_ms": 1120.344408438541
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this project and its accompanying manuscript."
+title: "Conversational DNA: A Visual Language and Interactive Atlas of Human and AI Dialogue"
+type: software
+version: 0.2.0
+authors:
+  - family-names: Lin
+    given-names: Baihan
+    email: doerlbh@gmail.com
+license: MIT
+keywords:
+  - dialogue visualization
+  - conversation analysis
+  - visual analytics
+  - multiparty dialogue
+  - human-AI interaction

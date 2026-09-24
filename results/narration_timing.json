@@ -1,0 +1,70 @@
+{
+  "duration": 149,
+  "voice": "macOS Samantha; temporary synthetic guide voice",
+  "segments": [
+    {
+      "start": 0,
+      "stop": 14,
+      "title": "The problem and atlas",
+      "narration": "Hi, I'm Baihan. This is Conversational DNA, an interactive atlas of human and AI dialogue. Today I'll explore how contributions fit together when conversations branch and people speak across one another.",
+      "spoken_seconds": 12.567770833333332,
+      "voice_rate": 165
+    },
+    {
+      "start": 14,
+      "stop": 33,
+      "title": "Explore and compare",
+      "narration": "Each point is an indexed episode. I can zoom, select a region, and change what color represents. Here I pin the full collection, then focus on distant responses in Molweni. Participation and annotation coverage change together. That distinction matters when comparing collections.",
+      "spoken_seconds": 16.797333333333334,
+      "voice_rate": 165
+    },
+    {
+      "start": 33,
+      "stop": 47,
+      "title": "From population to an exchange",
+      "narration": "The pathways view counts annotated target and response pairs. I'll select clarification followed by answer, then open a real example. Overlapping windows contribute to these counts; they don't establish whether an exchange succeeded.",
+      "spoken_seconds": 13.572520833333334,
+      "voice_rate": 165
+    },
+    {
+      "start": 47,
+      "stop": 78,
+      "title": "Read the visual language",
+      "narration": "Here is its DNA. Each strand follows one speaker; each base marks a communicative move. Only beads indicate speech. This clarification points back to turn four, across another participant's contribution. The original words stay beside the picture. I can rotate the helix and color bases by move. Twist represents speaker switching, radius represents response distance, and bead size represents word count. Turning these channels off gives a fixed reference for the same exchange.",
+      "spoken_seconds": 29.241458333333334,
+      "voice_rate": 165
+    },
+    {
+      "start": 78,
+      "stop": 106,
+      "title": "Inspect and align",
+      "narration": "The explorer connects the picture to transcripts and source annotations. Lanes and braids offer other views. I can choose an episode, retrieve related interaction patterns, and inspect the exact turn and target correspondences. On held-out annotated motifs, target-aware matching improved precision at five from fifty-eight point eight to seventy-seven point two percent. Visual understanding still needs a user study.",
+      "spoken_seconds": 24.286666666666665,
+      "voice_rate": 165
+    },
+    {
+      "start": 106,
+      "stop": 120,
+      "title": "Try and export an interpretation",
+      "narration": "I can also try an annotation overlay. The source stays intact, and changing the label clears the old comparison. Export preserves the evidence and the overlay, so another reader can examine the interpretation.",
+      "spoken_seconds": 12.476875,
+      "voice_rate": 165
+    },
+    {
+      "start": 120,
+      "stop": 138,
+      "title": "Compare observed alternatives",
+      "narration": "Finally, PRISM records different replies to the same prompt. Here the prompt is: what is love? We can compare the participant's ratings and follow the recorded next round. An unchosen reply has no invented continuation. These are observed alternatives, not causal experiments.",
+      "spoken_seconds": 16.685,
+      "voice_rate": 165
+    },
+    {
+      "start": 138,
+      "stop": 149,
+      "title": "Close with the research question",
+      "narration": "The methods view explains our sources and limits. My aim is to make conversation's shared structure inspectable, with every interpretation connected to evidence. Thank you.",
+      "spoken_seconds": 9.834125,
+      "voice_rate": 165
+    }
+  ]
+}

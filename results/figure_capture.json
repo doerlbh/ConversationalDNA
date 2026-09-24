@@ -1,0 +1,26 @@
+{
+  "method": "Frames from native macOS ScreenCaptureKit Chrome-window recordings",
+  "source_resolution": [
+    3456,
+    2592
+  ],
+  "application_crop": [
+    0,
+    356,
+    3456,
+    1812
+  ],
+  "resampling": "None in source masters",
+  "figure_width_inches": 6.7,
+  "main_excerpt_pixels": 2976,
+  "main_excerpt_native_ppi": 444.17910447761193,
+  "panel_font": "Times New Roman; embedded TrueType",
+  "architecture": "Vector PDF; Times New Roman; white rectangular cells",
+  "panels": "A and B; same physical height; native proportions preserved",
+  "sources": {
+    "atlas_pathways_capture.png": "conference-take01 at raw 40s",
+    "atlas_grammar_capture.png": "conference-take01 at raw 58s",
+    "atlas_alignment_capture.png": "conference-take01 at raw 94s",
+    "other_captures": "Dedicated native window captures in qa/screenrecording"
+  }
+}

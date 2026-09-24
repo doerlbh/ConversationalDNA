@@ -1,0 +1,621 @@
+{
+  "corpora": {
+    "chromium": {
+      "episodes": 54192,
+      "group_share": 0.27166371420135815,
+      "mean_span": 1.0,
+      "nonadjacent_fraction": 0.0,
+      "action_coverage": 0.0,
+      "target_coverage": 1.0
+    },
+    "cmv": {
+      "episodes": 6466,
+      "group_share": 0.611351685740798,
+      "mean_span": 1.0,
+      "nonadjacent_fraction": 0.0,
+      "action_coverage": 0.0,
+      "target_coverage": 1.0
+    },
+    "dailydialog": {
+      "episodes": 14361,
+      "group_share": 0.0,
+      "mean_span": null,
+      "nonadjacent_fraction": null,
+      "action_coverage": 1.0,
+      "target_coverage": 0.0
+    },
+    "deli": {
+      "episodes": 2296,
+      "group_share": 0.759581881533101,
+      "mean_span": null,
+      "nonadjacent_fraction": null,
+      "action_coverage": 0.7661662456445993,
+      "target_coverage": 0.0
+    },
+    "molweni": {
+      "episodes": 13033,
+      "group_share": 0.7184071203867106,
+      "mean_span": 1.5499046993352914,
+      "nonadjacent_fraction": 0.3389458686237038,
+      "action_coverage": 0.9082097061305915,
+      "target_coverage": 0.9927108110181846
+    },
+    "prism": {
+      "episodes": 9530,
+      "group_share": 0.0,
+      "mean_span": null,
+      "nonadjacent_fraction": null,
+      "action_coverage": 0.0,
+      "target_coverage": 0.0
+    },
+    "reddit": {
+      "episodes": 19157,
+      "group_share": 0.9469123557968366,
+      "mean_span": 1.9205870046491031,
+      "nonadjacent_fraction": 0.33173906916111756,
+      "action_coverage": 0.8913516103774078,
+      "target_coverage": 0.9431539385081171
+    },
+    "wildchat": {
+      "episodes": 32454,
+      "group_share": 0.0,
+      "mean_span": null,
+      "nonadjacent_fraction": null,
+      "action_coverage": 0.0,
+      "target_coverage": 0.0
+    }
+  },
+  "projection": {
+    "schema": "dna-atlas/0.2",
+    "episodes": 151489,
+    "source_records": 117310,
+    "corpora": [
+      "chromium",
+      "cmv",
+      "dailydialog",
+      "deli",
+      "molweni",
+      "prism",
+      "reddit",
+      "wildchat"
+    ],
+    "features": [
+      "log_turns",
+      "speaker_fraction",
+      "speaker_switching",
+      "speaker_entropy",
+      "largest_speaker_share",
+      "known_action_fraction",
+      "target_density",
+      "nonadjacent_fraction",
+      "mean_target_span",
+      "max_target_span",
+      "branching_targets",
+      "clarification_fraction",
+      "answer_fraction",
+      "question_fraction",
+      "acknowledgement_fraction",
+      "proposal_fraction",
+      "action_entropy",
+      "mean_log_word_count",
+      "lexical_recurrence"
+    ],
+    "projection": "PCA of 19 standardized episode descriptors; full indexed episode population",
+    "explained_variance": [
+      0.2700614506223062,
+      0.17361288610500772
+    ],
+    "loadings": [
+      [
+        0.08332967835188948,
+        0.21430374182783052,
+        -0.07852715006324154,
+        -0.17109712410607372,
+        -0.18922205348424925,
+        0.3093330989371109,
+        0.2467818283461811,
+        0.3793403238552323,
+        0.23563188725886433,
+        0.34964341923047426,
+        0.36570940158010273,
+        0.2068456743193402,
+        0.298760493003711,
+        0.124531086195312,
+        0.09982266526403769,
+        -0.012390292563864225,
+        0.3127673588629912,
+        -0.08671491422171443,
+        -0.029475704774069782
+      ],
+      [
+        -0.3822062098746146,
+        0.26112475131568236,
+        -0.1924058240281447,
+        -0.035322253413871414,
+        0.07389270152468791,
+        -0.32032415172353707,
+        0.3707079845517308,
+        -0.026604369291767613,
+        0.42362140171638435,
+        0.2631183737785888,
+        -0.053997137573016614,
+        -0.05737863024317661,
+        -0.09407839625128053,
+        -0.2797828552195707,
+        -0.03160700869188393,
+        -0.11415556372874218,
+        -0.31330411096967314,
+        0.056932375370099784,
+        0.2093081518679838
+      ]
+    ],
+    "scaler_mean": [
+      1.959704383962224,
+      0.46342025347862065,
+      0.9250363060283243,
+      0.9727557810003775,
+      0.48036543774118756,
+      0.29726569639253586,
+      0.4630457374086931,
+      0.061676388907478,
+      0.1723197491104915,
+      0.22104598706122774,
+      0.027582487403991635,
+      0.018578317569993463,
+      0.06153358903079942,
+      0.04346389139146194,
+      0.0026994649752737853,
+      0.009746310784670005,
+      0.268779275538577,
+      2.9497495190061422,
+      0.08689415682043197
+    ],
+    "scaler_scale": [
+      0.3666076837619101,
+      0.19886861431721067,
+      0.17477561490375015,
+      0.061968025968982765,
+      0.10176252887557753,
+      0.43710375654947814,
+      0.3878120000057172,
+      0.1614939652633702,
+      0.15876386813786947,
+      0.2418916963598615,
+      0.06991721742173075,
+      0.07462750481854473,
+      0.1646272627053044,
+      0.11069787775146858,
+      0.022596098595845326,
+      0.08369857586313893,
+      0.40712352924602124,
+      0.8582013166696341,
+      0.08045683168890884
+    ],
+    "coordinate_min": [
+      -2.6772809027721327,
+      -5.032276072954361
+    ],
+    "coordinate_max": [
+      8.994862269782189,
+      5.746306894454775
+    ],
+    "example_episodes": {
+      "chromium": 97298,
+      "cmv": 32191,
+      "dailydialog": 82937,
+      "deli": 38657,
+      "molweni": 1656,
+      "prism": 73407,
+      "reddit": 13034,
+      "wildchat": 53721
+    },
+    "synthetic": false,
+    "seconds": 33.754,
+    "source_database_bytes": 2798174208,
+    "pairs": {
+      "chromium": [
+        [
+          "unknown",
+          "unknown",
+          182094
+        ]
+      ],
+      "cmv": [
+        [
+          "unknown",
+          "unknown",
+          38761
+        ]
+      ],
+      "dailydialog": [],
+      "deli": [],
+      "molweni": [
+        [
+          "clarify",
+          "answer",
+          10862
+        ],
+        [
+          "comment",
+          "comment",
+          9448
+        ],
+        [
+          "comment",
+          "clarify",
+          5854
+        ],
+        [
+          "unknown",
+          "comment",
+          5730
+        ],
+        [
+          "answer",
+          "comment",
+          5299
+        ],
+        [
+          "unknown",
+          "answer",
+          5009
+        ],
+        [
+          "answer",
+          "clarify",
+          4896
+        ],
+        [
+          "unknown",
+          "clarify",
+          4244
+        ],
+        [
+          "other",
+          "other",
+          3484
+        ],
+        [
+          "other",
+          "comment",
+          3237
+        ],
+        [
+          "comment",
+          "other",
+          3201
+        ],
+        [
+          "other",
+          "clarify",
+          2755
+        ],
+        [
+          "answer",
+          "other",
+          2447
+        ],
+        [
+          "clarify",
+          "comment",
+          2291
+        ],
+        [
+          "clarify",
+          "clarify",
+          2162
+        ],
+        [
+          "unknown",
+          "other",
+          1725
+        ],
+        [
+          "clarify",
+          "elaborate",
+          1492
+        ],
+        [
+          "unknown",
+          "elaborate",
+          1242
+        ],
+        [
+          "elaborate",
+          "answer",
+          1149
+        ],
+        [
+          "comment",
+          "acknowledge",
+          1098
+        ],
+        [
+          "clarify",
+          "other",
+          1032
+        ],
+        [
+          "acknowledge",
+          "comment",
+          948
+        ],
+        [
+          "elaborate",
+          "comment",
+          778
+        ],
+        [
+          "elaborate",
+          "elaborate",
+          689
+        ],
+        [
+          "answer",
+          "acknowledge",
+          622
+        ],
+        [
+          "elaborate",
+          "other",
+          522
+        ],
+        [
+          "elaborate",
+          "clarify",
+          490
+        ],
+        [
+          "other",
+          "acknowledge",
+          445
+        ],
+        [
+          "comment",
+          "elaborate",
+          443
+        ],
+        [
+          "acknowledge",
+          "clarify",
+          430
+        ],
+        [
+          "comment",
+          "correct",
+          394
+        ],
+        [
+          "correct",
+          "comment",
+          364
+        ],
+        [
+          "other",
+          "elaborate",
+          338
+        ],
+        [
+          "acknowledge",
+          "other",
+          325
+        ],
+        [
+          "answer",
+          "elaborate",
+          316
+        ],
+        [
+          "unknown",
+          "acknowledge",
+          278
+        ],
+        [
+          "clarify",
+          "acknowledge",
+          231
+        ],
+        [
+          "answer",
+          "correct",
+          228
+        ],
+        [
+          "other",
+          "correct",
+          219
+        ],
+        [
+          "answer",
+          "answer",
+          214
+        ],
+        [
+          "correct",
+          "clarify",
+          199
+        ],
+        [
+          "correct",
+          "other",
+          185
+        ],
+        [
+          "comment",
+          "answer",
+          169
+        ],
+        [
+          "acknowledge",
+          "acknowledge",
+          161
+        ],
+        [
+          "other",
+          "answer",
+          160
+        ],
+        [
+          "unknown",
+          "correct",
+          118
+        ],
+        [
+          "elaborate",
+          "acknowledge",
+          105
+        ],
+        [
+          "clarify",
+          "correct",
+          84
+        ],
+        [
+          "elaborate",
+          "correct",
+          63
+        ],
+        [
+          "acknowledge",
+          "elaborate",
+          56
+        ],
+        [
+          "correct",
+          "acknowledge",
+          53
+        ],
+        [
+          "correct",
+          "elaborate",
+          44
+        ],
+        [
+          "acknowledge",
+          "answer",
+          32
+        ],
+        [
+          "acknowledge",
+          "correct",
+          30
+        ],
+        [
+          "correct",
+          "correct",
+          25
+        ],
+        [
+          "correct",
+          "answer",
+          18
+        ]
+      ],
+      "prism": [],
+      "reddit": [
+        [
+          "question",
+          "answer",
+          33222
+        ],
+        [
+          "other",
+          "other",
+          27237
+        ],
+        [
+          "answer",
+          "other",
+          17996
+        ],
+        [
+          "other",
+          "unknown",
+          5230
+        ],
+        [
+          "unknown",
+          "other",
+          5122
+        ],
+        [
+          "answer",
+          "question",
+          4491
+        ],
+        [
+          "other",
+          "question",
+          3788
+        ],
+        [
+          "answer",
+          "unknown",
+          3250
+        ],
+        [
+          "unknown",
+          "unknown",
+          3228
+        ],
+        [
+          "question",
+          "other",
+          2598
+        ],
+        [
+          "question",
+          "question",
+          2546
+        ],
+        [
+          "question",
+          "unknown",
+          1924
+        ],
+        [
+          "other",
+          "answer",
+          894
+        ],
+        [
+          "unknown",
+          "question",
+          843
+        ],
+        [
+          "answer",
+          "answer",
+          779
+        ],
+        [
+          "unknown",
+          "answer",
+          384
+        ]
+      ],
+      "wildchat": []
+    },
+    "point_columns": [
+      "episode_id",
+      "pc1",
+      "pc2",
+      "corpus_index",
+      "turns",
+      "speakers",
+      "switch_rate",
+      "mean_target_span",
+      "motif_flags",
+      "eligible_edges",
+      "nonadjacent_edges",
+      "known_action_fraction"
+    ],
+    "motif_flags": {
+      "group": 1,
+      "nonadjacent": 2,
+      "clarification": 4,
+      "branching": 8,
+      "targets_available": 16
+    }
+  }
+}

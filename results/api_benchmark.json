@@ -1,0 +1,502 @@
+{
+  "protocol": "Warm localhost HTTP requests; text search over full record index; 40 structural requests within five corpora. No browser rendering, concurrency, cold disk or network latency claims.",
+  "search_ms": {
+    "p50": 44.22904198872857,
+    "p95": 322.83164605032647,
+    "max": 400.6742089986801,
+    "n": 30
+  },
+  "alignment_ms": {
+    "p50": 414.62572902673855,
+    "p95": 503.70743299718015,
+    "max": 526.2730839895085,
+    "n": 40
+  },
+  "corpus_stats": {
+    "molweni": {
+      "conversations": 10000,
+      "turns": 88303,
+      "edges": 78245,
+      "nonadjacent": 27462,
+      "multiparty": 7883,
+      "eligible": 10000,
+      "episodes": 13033,
+      "median_turns": 8,
+      "max_turns": 14,
+      "name": "Molweni",
+      "example_ids": [
+        "molweni:train-3778",
+        "molweni:train-4258",
+        "molweni:train-5125",
+        "molweni:train-1732",
+        "molweni:train-3451",
+        "molweni:train-922",
+        "molweni:train-7570",
+        "molweni:train-3166"
+      ]
+    },
+    "reddit": {
+      "conversations": 9483,
+      "turns": 115827,
+      "edges": 107899,
+      "nonadjacent": 52369,
+      "multiparty": 8845,
+      "eligible": 9375,
+      "episodes": 19157,
+      "median_turns": 9,
+      "max_turns": 41,
+      "name": "Reddit Coarse Discourse",
+      "example_ids": [
+        "reddit:t3_1016hm",
+        "reddit:t3_104bl4",
+        "reddit:t3_105bsr",
+        "reddit:t3_106ins",
+        "reddit:t3_1079f7",
+        "reddit:t3_107x2h",
+        "reddit:t3_10as33",
+        "reddit:t3_10bw6d"
+      ]
+    },
+    "cmv": {
+      "conversations": 6842,
+      "turns": 42964,
+      "edges": 36122,
+      "nonadjacent": 0,
+      "multiparty": 3958,
+      "eligible": 5279,
+      "episodes": 6466,
+      "median_turns": 6,
+      "max_turns": 22,
+      "name": "ChangeMyView",
+      "example_ids": []
+    },
+    "deli": {
+      "conversations": 500,
+      "turns": 14003,
+      "edges": 0,
+      "nonadjacent": 0,
+      "multiparty": 356,
+      "eligible": 500,
+      "episodes": 2296,
+      "median_turns": 25,
+      "max_turns": 104,
+      "name": "DeliData",
+      "example_ids": []
+    },
+    "wildchat": {
+      "conversations": 36821,
+      "turns": 217432,
+      "edges": 0,
+      "nonadjacent": 0,
+      "multiparty": 0,
+      "eligible": 19920,
+      "episodes": 32454,
+      "median_turns": 4,
+      "max_turns": 110,
+      "name": "WildChat (one shard)",
+      "example_ids": []
+    },
+    "prism": {
+      "conversations": 8011,
+      "turns": 53646,
+      "edges": 0,
+      "nonadjacent": 0,
+      "multiparty": 0,
+      "eligible": 7919,
+      "episodes": 9530,
+      "median_turns": 6,
+      "max_turns": 44,
+      "name": "PRISM",
+      "example_ids": []
+    },
+    "dailydialog": {
+      "conversations": 11118,
+      "turns": 87170,
+      "edges": 0,
+      "nonadjacent": 0,
+      "multiparty": 0,
+      "eligible": 10249,
+      "episodes": 14361,
+      "median_turns": 7,
+      "max_turns": 35,
+      "name": "DailyDialog (train)",
+      "example_ids": []
+    },
+    "chromium": {
+      "conversations": 1484843,
+      "turns": 2853498,
+      "edges": 1368655,
+      "nonadjacent": 0,
+      "multiparty": 27842,
+      "eligible": 54068,
+      "episodes": 54192,
+      "median_turns": 2,
+      "max_turns": 15,
+      "name": "Chromium",
+      "example_ids": []
+    },
+    "_build": {
+      "seconds": 105.19,
+      "window": 12,
+      "stride": 6,
+      "max_windows_per_conversation": 64,
+      "schema_version": "0.1",
+      "created_utc": "2026-09-23T21:01:22Z"
+    }
+  },
+  "environment": "macOS-26.6.2-arm64-arm-64bit",
+  "search_requests": [
+    {
+      "q": "installation",
+      "ms": 74.6930839959532,
+      "returned": 24
+    },
+    {
+      "q": "installation",
+      "ms": 5.222500010859221,
+      "returned": 24
+    },
+    {
+      "q": "installation",
+      "ms": 4.779583017807454,
+      "returned": 24
+    },
+    {
+      "q": "evidence",
+      "ms": 44.99979194952175,
+      "returned": 24
+    },
+    {
+      "q": "evidence",
+      "ms": 7.055874972138554,
+      "returned": 24
+    },
+    {
+      "q": "evidence",
+      "ms": 7.0115000125952065,
+      "returned": 24
+    },
+    {
+      "q": "question",
+      "ms": 400.6742089986801,
+      "returned": 24
+    },
+    {
+      "q": "question",
+      "ms": 41.92175000207499,
+      "returned": 24
+    },
+    {
+      "q": "question",
+      "ms": 43.458292027935386,
+      "returned": 24
+    },
+    {
+      "q": "function",
+      "ms": 262.46691698906943,
+      "returned": 24
+    },
+    {
+      "q": "function",
+      "ms": 175.98762502893806,
+      "returned": 24
+    },
+    {
+      "q": "function",
+      "ms": 181.3350830343552,
+      "returned": 24
+    },
+    {
+      "q": "thanks",
+      "ms": 88.0887089879252,
+      "returned": 24
+    },
+    {
+      "q": "thanks",
+      "ms": 78.2944579841569,
+      "returned": 24
+    },
+    {
+      "q": "thanks",
+      "ms": 78.59562494559214,
+      "returned": 24
+    },
+    {
+      "q": "explain",
+      "ms": 36.391915986314416,
+      "returned": 24
+    },
+    {
+      "q": "explain",
+      "ms": 28.900375007651746,
+      "returned": 24
+    },
+    {
+      "q": "explain",
+      "ms": 29.382084030658007,
+      "returned": 24
+    },
+    {
+      "q": "group",
+      "ms": 28.427415993064642,
+      "returned": 24
+    },
+    {
+      "q": "group",
+      "ms": 19.303874985780567,
+      "returned": 24
+    },
+    {
+      "q": "group",
+      "ms": 19.307915994431823,
+      "returned": 24
+    },
+    {
+      "q": "problem",
+      "ms": 63.619041990023106,
+      "returned": 24
+    },
+    {
+      "q": "problem",
+      "ms": 55.815958010498434,
+      "returned": 24
+    },
+    {
+      "q": "problem",
+      "ms": 55.45300000812858,
+      "returned": 24
+    },
+    {
+      "q": "answer",
+      "ms": 27.77258405694738,
+      "returned": 24
+    },
+    {
+      "q": "answer",
+      "ms": 18.512415990699083,
+      "returned": 24
+    },
+    {
+      "q": "answer",
+      "ms": 27.338833024259657,
+      "returned": 24
+    },
+    {
+      "q": "code",
+      "ms": 331.36420900700614,
+      "returned": 24
+    },
+    {
+      "q": "code",
+      "ms": 309.7413340001367,
+      "returned": 24
+    },
+    {
+      "q": "code",
+      "ms": 312.40295799216256,
+      "returned": 24
+    }
+  ],
+  "alignment_requests": [
+    {
+      "id": "molweni:train-2392",
+      "ms": 479.96241704095155,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-185",
+      "ms": 526.2730839895085,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-7724",
+      "ms": 503.3589579979889,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-1802",
+      "ms": 467.5482090096921,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-2633",
+      "ms": 475.55404203012586,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-178",
+      "ms": 496.6529999510385,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-6655",
+      "ms": 502.77045799884945,
+      "candidates": 120
+    },
+    {
+      "id": "molweni:train-1884",
+      "ms": 510.3284579818137,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_2krjad",
+      "ms": 350.1350409933366,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_2q19wy",
+      "ms": 250.17983297584578,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_33vgf8",
+      "ms": 230.29999999562278,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_35i5q9",
+      "ms": 225.6789579987526,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_4dayqg",
+      "ms": 204.8015829641372,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_10bsmf",
+      "ms": 444.18958300957456,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_118809",
+      "ms": 482.84612502902746,
+      "candidates": 120
+    },
+    {
+      "id": "reddit:t3_11whly",
+      "ms": 447.8875420172699,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_3",
+      "ms": 415.39016604656354,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_13",
+      "ms": 368.5803330154158,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_26",
+      "ms": 364.54037501243874,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_27",
+      "ms": 422.4122080486268,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_35",
+      "ms": 380.48741704551503,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_38",
+      "ms": 379.1435419698246,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_40",
+      "ms": 388.0660829599947,
+      "candidates": 120
+    },
+    {
+      "id": "dailydialog:a438b751ab9997cdb35f07bfe3dfb010b96365f4762d77f87e5f41290ff61c3d_44",
+      "ms": 392.53212499897927,
+      "candidates": 120
+    },
+    {
+      "id": "deli:2d43c5a8-a321-4def-834d-7214dc119256",
+      "ms": 378.23416700121015,
+      "candidates": 120
+    },
+    {
+      "id": "deli:338c2869-0ab3-4400-b086-014788358786",
+      "ms": 357.7222080202773,
+      "candidates": 120
+    },
+    {
+      "id": "deli:4055602f-dfa6-4046-bcab-777bc97471a1",
+      "ms": 406.2372909975238,
+      "candidates": 120
+    },
+    {
+      "id": "deli:abd7229e-f643-457c-8d1a-dadefa121155",
+      "ms": 452.90691597620025,
+      "candidates": 120
+    },
+    {
+      "id": "deli:c8d24cae-acf8-43a8-a919-a38a24194138",
+      "ms": 373.96375002572313,
+      "candidates": 120
+    },
+    {
+      "id": "deli:d799b708-dffb-42bf-b10d-12b82fd074c3",
+      "ms": 436.205499980133,
+      "candidates": 120
+    },
+    {
+      "id": "deli:19e81a26-1344-4a5c-886f-a2d4ca5eb283",
+      "ms": 373.1881660060026,
+      "candidates": 120
+    },
+    {
+      "id": "deli:184b605f-6dc6-4685-b6c1-25f8748e0372",
+      "ms": 371.1842080228962,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:e412814edb66ba6a98768604",
+      "ms": 456.1049999902025,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:9a73539cd04613e0370627db",
+      "ms": 422.32250003144145,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:e4a8b6f116a4acae810a5fcf",
+      "ms": 413.8612920069136,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:2536b9a86ffea29acd638426",
+      "ms": 421.42183403484523,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:a1c6e263c3ef100290d48a9e",
+      "ms": 410.97762499703094,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:3d0ecf2befc97df339dfab5d",
+      "ms": 427.3376659839414,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:bb5e4e8ec5d99de104bcdb10",
+      "ms": 420.82016699714586,
+      "candidates": 120
+    },
+    {
+      "id": "wildchat:e6ba45f526a3de626d78ecd0",
+      "ms": 411.1363340052776,
+      "candidates": 120
+    }
+  ]
+}

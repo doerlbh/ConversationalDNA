@@ -1,0 +1,66 @@
+[
+  {
+    "name": "reddit-coarse-discourse-corpus",
+    "url": "https://zissou.infosci.cornell.edu/convokit/datasets/reddit-coarse-discourse-corpus/reddit-coarse-discourse-corpus.zip",
+    "path": "raw/reddit-coarse-discourse-corpus.zip",
+    "bytes": 17002431,
+    "sha256": "33cc25e906e677881c0031c1e134460b1e389fac707f2e52fe59b484dc6d0b61",
+    "retrieved_utc": "2026-09-23T20:55:15Z"
+  },
+  {
+    "name": "conversations-gone-awry-cmv-corpus",
+    "url": "https://zissou.infosci.cornell.edu/convokit/datasets/conversations-gone-awry-cmv-corpus/conversations-gone-awry-cmv-corpus.zip",
+    "path": "raw/conversations-gone-awry-cmv-corpus.zip",
+    "bytes": 51501878,
+    "sha256": "eb5b7dc7a043c9ec9078d8ca0cc43c0abc58f41d30d09a32ff79dad6643d885b",
+    "retrieved_utc": "2026-09-23T20:55:30Z"
+  },
+  {
+    "name": "deli-corpus",
+    "url": "https://zissou.infosci.cornell.edu/convokit/datasets/deli-corpus/deli-corpus.zip",
+    "path": "raw/deli-corpus.zip",
+    "bytes": 939850,
+    "sha256": "ad24289c4d75593e22fb640fec55186dbb6a10b2cba61d7f854aba04df8c208d",
+    "retrieved_utc": "2026-09-23T20:55:04Z"
+  },
+  {
+    "name": "chromium-corpus",
+    "url": "https://zissou.infosci.cornell.edu/convokit/datasets/chromium-corpus/chromium-corpus.zip",
+    "path": "raw/chromium-corpus.zip",
+    "bytes": 282732689,
+    "sha256": "15d6d1ce57514168f15989a2a41d5fb357af8c5d40f3be8e48b3b0400b8105f9",
+    "retrieved_utc": "2026-09-23T20:56:17Z"
+  },
+  {
+    "name": "wildchat-shard-00000.parquet",
+    "url": "https://huggingface.co/datasets/allenai/WildChat-4.8M/resolve/main/data/train-00000-of-00086.parquet",
+    "path": "raw/wildchat-shard-00000.parquet",
+    "bytes": 125527585,
+    "sha256": "6df660dca78dd92b865bef09b928992ceb6c913b4f06082315876a5997ad2eaa",
+    "retrieved_utc": "2026-09-23T20:55:51Z"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HIT-SCIR/Molweni/main/DP/train.json",
+    "file": "DATA_ROOT/dna_2026/raw/molweni/train.json",
+    "sha256": "b204d9379dd3f00362152076e1bfe885a1c2a960d962902c8915071ea8724f2b",
+    "bytes": 21271582
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HIT-SCIR/Molweni/main/DP/dev.json",
+    "file": "DATA_ROOT/dna_2026/raw/molweni/dev.json",
+    "sha256": "472b23659fe390cf8bfd129902154b5e789cb95138a80f70e23f43dce838bbbb",
+    "bytes": 1174508
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HIT-SCIR/Molweni/main/DP/test.json",
+    "file": "DATA_ROOT/dna_2026/raw/molweni/test.json",
+    "sha256": "8657ca02410f33a5fd8cd1423d86aeef774daa45642c37050b8bd456d76039a6",
+    "bytes": 1184410
+  },
+  {
+    "url": "https://raw.githubusercontent.com/HIT-SCIR/Molweni/main/LICENSE",
+    "file": "DATA_ROOT/dna_2026/raw/molweni/LICENSE",
+    "sha256": "58ab9ed8873493e68f68b803f3fe4c75381e3e7170b44d5cdbab70efde625766",
+    "bytes": 11497
+  }
+]

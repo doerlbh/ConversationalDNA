@@ -1,0 +1,43 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "backend": "fastembed ONNX CPU",
+  "train_conversations": 3605,
+  "queries": 189,
+  "embedding_seconds": 40.12980100000277,
+  "metrics": {
+    "p5": {
+      "mean": 0.011640211640211642,
+      "ci95": [
+        0.005291005291005291,
+        0.01904761904761905
+      ]
+    },
+    "p10": {
+      "mean": 0.011111111111111112,
+      "ci95": [
+        0.00634920634920635,
+        0.016402116402116404
+      ]
+    },
+    "success10": {
+      "mean": 0.09523809523809523,
+      "ci95": [
+        0.05291005291005291,
+        0.14285714285714285
+      ]
+    },
+    "rr10": {
+      "mean": 0.026908541194255477,
+      "ci95": [
+        0.01333238851095994,
+        0.043350655076845546
+      ]
+    }
+  },
+  "token_limit": {
+    "max_length": 128,
+    "stride": 0,
+    "strategy": "longest_first",
+    "direction": "right"
+  }
+}

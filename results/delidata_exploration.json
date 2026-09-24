@@ -1,0 +1,9 @@
+{
+  "n": 500,
+  "positive_change": 0,
+  "positive_change_fraction": 0.0,
+  "probe_fraction_change_spearman_rho": null,
+  "p_value": null,
+  "interpretation": "Exploratory observational association. Performance fields are ConvoKit-derived estimates, not an independently reconstructed task score. No causal or population-level inference.",
+  "status": "INVALID OUTCOME FIELD: all 500 exported performance_change values are zero. Do not infer no group improvement. Correlation not estimable; outcome analysis excluded."
+}
